@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Company</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body,
+        h1,
+        h2,
+        h3 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        h3 {
+            font-weight: normal;
+            font-size: 32px;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .title-col {
+            color: #899878;
+            font-style: italic;
+        }
+
+        .font-color {
+            font-weight: normal;
+            color: #ffffff;
+        }
+
+        .style-text {
+            color: #899878;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .background-black {
+            background-color: #222725;
+            padding: 25px;
+        }
+
+        .color-italic {
+            background-color: #e4e6c3;
+            padding: 10px;
+            margin: auto;
+        }
+
+        .hero-image {
+            background-image: url("images2/hero_image.png");
+            background-color: #ffe4c4;
+            height: 700px;
+            background-size: cover;
+            position: relative;
+        }
+
+        .banner-text {
+            position: absolute;
+            left: 45px;
+            top: 210px;
+        }
+
+        .color-white {
+            color: #ffffff;
+        }
+
+        main {
+            width: 80%;
+            margin: 64px auto;
+            text-align: justify;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        .description-picture {
+            text-align: center;
+            font-size: small;
+        }
+
+        .heading-position {
+            font-weight: normal;
+            position: relative;
+            left: 20px;
+        }
+
+        .subtitle-1 {
+            color: #899878;
+            font-style: italic;
+        }
+
+        .heading-position2 {
+            font-weight: normal;
+            position: relative;
+            text-align: right;
+            right: 20px;
+        }
+
+        .subtitle-2 {
+            font-weight: bold;
+            color: #899878;
+        }
+
+        .contact-input {
+            border: 1px solid;
+            border-radius: 4px;
+            padding: 12px 16px;
+            margin: 12px 0px;
+            width: 30%;
+            background-color: #e4e6c3;
+        }
+
+        form {
+            padding-top: 22px;
+        }
+
+
+        .btn {
+            border-radius: 15px;
+            width: 20%;
+            padding: 12px 32px;
+            margin-top: 15px;
+            color: #ffffff;
+            background-color: #121113;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #e4e6c3;
+        }
+
+        .copy-rights {
+            padding: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="background-black"><span class="title-col">Golden Grain</span> <span class="font-color">Food
+                Company</span></h1>
+        <p class="color-italic"><span class="style-text">Fresh</span> ingredients, combined with <span
+                class="style-text">love</span></p>
+        <div class="hero-image">
+            <h2 class="banner-text">We produce <span class="color-white">high quality pastries</span> for people who
+                want only the best</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2 class="heading-position">From humble <span class="subtitle-1">begginings...</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero dolor nostrum
+                voluptatibus illo
+                dolorum aliquid voluptate labore adipisci culpa delectus, totam rem voluptas? Providet,
+                dignissimos.Eius, fugit quaerat. Totam error ex in commodi reiciendisqui porro facilis. Ducimus in
+                voluptatem fugit fugiat quos animi id quam quo accusamus eos dolorem corrupti alias provident, nemo nisi
+                nihil libero maxime nesciunt numquam corporis blanditiis ab necessitatibus exercitationem.</p>
+        </section>
+        <section>
+            <h2 class="heading-position2">To <span class="subtitle-2">leaders</span> in food industry</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero dolor nostrum
+                voluptatibus illo
+                dolorum aliquid voluptate labore adipisci culpa delectus, totam rem voluptas? Providet,
+                dignissimos.Eius, fugit quaerat. Totam error ex in commodi reiciendisqui porro facilis. Ducimus in
+                voluptatem fugit fugiat quos animi id quam quo accusamus eos dolorem corrupti alias provident, nemo nisi
+                nihil libero maxime nesciunt numquam corporis blanditiis ab necessitatibus exercitationem.</p>
+            <figure>
+                <img src="images2/img1.png" alt="food2" class="center">
+                <figcaption class="description-picture">Lorem ipsum dolor sit amet. Aut galisum minima et magni quia et
+                    praesentium perspiciatis eum
+                    totam <br> molestiae ut enim dolore sed sint eius eos enim illo.</figcaption>
+            </figure>
+            <p>Are you interested in becoming a part of our Golden Grain Food Company? Opportunities for
+                employment or
+                setting up a franshise are waiting for you! Reach us by filling out the form below or send an email to
+                <a href="mailto: office@carrers.goldengrain.com">office@carrers.goldengrain.com</a>
+            </p>
+        </section>
+        <section>
+            <h3>Form</h3>
+            <form action="">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" value="" id="name" placeholder="Enter name" class="contact-input">
+                <br>
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text" value="" name="" placeholder="Enter last name" class="contact-input">
+                <br>
+                <label for="email">Mail:</label>
+                <br>
+                <input type="text" value="" id="email" placeholder="Enter mail" class="contact-input">
+                <br>
+                <label for="subject">Subject:</label>
+                <br>
+                <input type="text" value="" id="subject" placeholder="Enter message" class="contact-input">
+                <br>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="copy-rights">&copy; 2022 Golden Grain Food Company | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
